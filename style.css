@@ -1,10 +1,8 @@
-
-
 .davi {
   font-family: "Diplomata SC", serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 90px;
+  font-size: 95px;
 }
 
 .titulos {
@@ -20,7 +18,7 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-size: 18.5px;
+  font-size: 20px;
   
 }
 
@@ -37,4 +35,9 @@
   .tagmark {
     font-size: 12px;
   }
+}
+
+.img-main {
+  position: absolute;
+  left: 3%;
 }
