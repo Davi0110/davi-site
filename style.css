@@ -19,25 +19,29 @@
   font-weight: weight;
   font-style: normal;
   font-size: 20px;
-  
+
 }
 
 @media (max-width:768px) {
   .davi {
-  font-family: "Diplomata SC", serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 36px;
+    font-family: "Diplomata SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
 
 
-}
+  }
 
   .tagmark {
     font-size: 12px;
   }
 }
 
-.img-main {
+.ajustes-imagem {
   position: absolute;
   left: 3%;
+}
+
+.header-background {
+  background-image: url("img/background.jpeg");
 }
