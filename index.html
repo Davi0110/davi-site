@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio | Davi Coelho Almeida</title>
+    <title>Portifólio do Davi</title>
 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,11 +25,11 @@
         rel="stylesheet">
 
 <body>
-    <header id="header-background" class="text-light header-background">
-        <section id="sobre-mim" class="min-vh-100">
+    <header>
+        <section id="sobre-mim" class="min-vh-100 header-background">
             <nav class="navbar navbar-expand-lg bg-body-tertiary header-background">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#sobre-mim">DAVI COELHO ALMEIDA</a>
+                    <a class="navbar-brand text-light" href="#sobre-mim">DAVI COELHO ALMEIDA</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -36,38 +37,32 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#projetos">PROJETOS</a>
+                                <a class="nav-link text-light" href="#projetos">PROJETOS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#outros-projetos">OUTROS PROJETOS</a>
+                                <a class="nav-link text-light" href="#outros-projetos">OUTROS PROJETOS</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 text-center mt-1">
-                        <img class="d-flex d-md-none img-fluid" src="img/0.2.png" alt="">
-                        <img class="d-none d-md-flex d-lg-none img-fluid" src="img/0.4.png" alt="">
-                        <img class="d-none d-lg-flex ajustes-imagem" src="img/0.65.png" alt="">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6">
+                        <img class="img-fluid mt-5" src="img/perfil.png" alt="Retrato Frontal">
                     </div>
-                    <div class="col-12 col-md-6 text-dark mt-4">
-                        <div class="text-center text-md-start">
-                            <h1 class="davi">Davi Coelho Almeida</h1>
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6">
+                        <div class="text-center">
+                            <h1 class="text-md-center text-lg-start titulo-principal text-white">Davi Coelho Almeida
+                            </h1>
+                            <p class="titulos-secundarios text-xl-start text-white">Desenvolvedor Front-End |
+                                JavaScript</p>
+                            <p class="paragrafos text-white">Meu nome é Davi Coelho Almeida, tenho 16 anos, estudo na
+                                Escola Estadual Professora Sebastiana de Almeida e Silva (EEPSAS), onde faço o ensino
+                                médio e curso desenvolvimento de sistemas, dentro da programação atuo no Front-End. Sou
+                                entusiasta da tecnologia, inglês, exatas, teologia, romance e arte.</p>
                         </div>
-                        <p class="fw-bold paragrafos tagmark text-center text-md-start">Desenvolvedor Front-End |
-                            JavaScript</p>
-                        <p class="paragrafos">Meu nome é Davi Coelho Almeida, tenho 16 anos, estudo na Escola
-                            Estadual
-                            Professora Sebastiana de Almeida e Silva (EEPSAS), onde faço o ensino médio e curso
-                            desenvolvimento de sistemas, dentro da programação atuo no Front-End. Sou Entusiasta da
-                            tecnologia, inglês, exatas, teologia
-                            romance e arte.</p>
-
-
                     </div>
-
                 </div>
             </div>
         </section>
@@ -76,11 +71,12 @@
     <main class="text-light">
         <section id="projetos" class="min-vh-100 bg-black">
             <div class="container">
-                <h2 class="fw-bold fs-1 titulos mb-2">Portifólio</h2>
-                <p class="paragrafos small mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum omnis
-                    accusamus perferendis, adipisci, temporibus odio, illum nisi corrupti eos at ullam
-                    voluptatibus eius sed vitae delectus assumenda suscipit! Repellat, libero.</p>
-                <div class="row">
+                <div class="row align-items-center">
+                    <h2 class="fw-bold fs-1 titulos mb-2">Portifólio</h2>
+                    <p class="paragrafos small mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+                        omnis
+                        accusamus perferendis, adipisci, temporibus odio, illum nisi corrupti eos at ullam
+                        voluptatibus eius sed vitae delectus assumenda suscipit! Repellat, libero.</p>
                     <div class="col-12 col-md-6">
                         <h3 class="titulos mb-2">Nome do Projeto Principal 1</h3>
                         <p class="small paragrafos mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -91,7 +87,7 @@
                         <a class="btn btn-light mb-2 w-25 h-25" href="carrinho-compras/index.html">Acessar Projeto</a>
                     </div>
                     <div>
-                        <img src="img/carrinho-de-compras.jpg"
+                        <img src=""
                             alt="Representação do site carrinho de compras em dispositivo mobile e desktop.">
                     </div>
                     <div class="col-12 col-md-8">
@@ -103,14 +99,17 @@
                             reiciendis consequatur minus dolorem et beatae veritatis!</p>
                         <a class="btn btn-light mb-2 w-25 h-25" href="amigo-secreto/index.html">Acessar Projeto</a>
                     </div>
+                        <img src="" alt="Representação do site carrinho de compras em dispositivo mobile e desktop.">
                     <div>
-                        <img src="img/amigo-secreto.jpg" alt="">
+                        <img src="" alt="">
                     </div>
                 </div>
             </div>
         </section>
         <section id="outros-projetos" class="min-vh-100">
+            <h2>Outros projetos</h2>
 
+            <h3></h3>
         </section>
     </main>
     <footer>

@@ -1,11 +1,64 @@
-.davi {
+.titulo-principal {
   font-family: "Diplomata SC", serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 95px;
+  font-size: 5rem;
 }
 
-.titulos {
+@media (max-width:40000px) {
+  .titulo-principal {
+    font-family: "Diplomata SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4.3rem;
+  }
+}
+
+@media (max-width:1220px) {
+  .titulo-principal {
+    font-family: "Diplomata SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4.1rem;
+  }
+}
+
+@media (max-width:1172px) {
+  .titulo-principal {
+    font-family: "Diplomata SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width:1015px) {
+  .titulo-principal {
+    font-family: "Diplomata SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width:767px) {
+  .titulo-principal {
+    font-family: "Diplomata SC", serif;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+}
+
+
+@media (max-width:575px) {
+  .titulo-principal {
+    font-family: "Diplomata SC", serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+  }
+}
+
+.titulos-secundarios {
   font-family: "Anek Latin", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -13,35 +66,125 @@
   font-variation-settings: "wdth" 100;
 }
 
+@media (max-width:4000px) {
+  .titulos-secundarios {
+    font-family: "Anek Latin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 530;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: start;
+  }
+}
+
+@media (max-width:991px) {
+  .titulos-secundarios {
+    font-family: "Anek Latin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 525;
+    font-style: normal;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+@media (max-width:767px) {
+  .titulos-secundarios {
+    font-family: "Anek Latin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 525;
+    font-style: normal;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:575px) {
+  .titulos-secundarios {
+    font-family: "Anek Latin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 525;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+}
+
+
+
 .paragrafos {
   font-family: "Elms Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 400;
   font-style: normal;
-  font-size: 20px;
-
+  font-size: 1.2rem;
 }
 
-@media (max-width:768px) {
-  .davi {
-    font-family: "Diplomata SC", serif;
-    font-weight: 700;
+@media (max-width:4000px) {
+  .paragrafos {
+    font-family: "Elms Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 410;
     font-style: normal;
-    font-size: 36px;
-
-
-  }
-
-  .tagmark {
-    font-size: 12px;
+    font-size: 1.4rem;
+    text-align: start;
   }
 }
 
-.ajustes-imagem {
-  position: absolute;
-  left: 8%;
+@media (max-width:991px) {
+  .paragrafos {
+    font-family: "Elms Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 410;
+    font-style: normal;
+    font-size: 1.3rem;
+    text-align: start;
+  }
+}
+
+@media (max-width:991px) {
+  .paragrafos {
+    font-family: "Elms Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 410;
+    font-style: normal;
+    font-size: 1.3rem;
+    text-align: start;
+  }
+}
+
+@media (max-width:767px) {
+  .paragrafos {
+    font-family: "Elms Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 410;
+    font-style: normal;
+    font-size: 1.2rem;
+    text-align: start;
+  }
+}
+
+
+@media (max-width:575px) {
+  .paragrafos {
+    font-family: "Elms Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 410;
+    font-style: normal;
+    font-size: 1.1rem;
+    text-align: start;
+  }
+}
+
+
+.tagmark {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .header-background {
-  background-image: url("img/background.jpeg");
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.88)), url("img/background-header.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
